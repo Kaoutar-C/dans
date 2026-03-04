@@ -1,201 +1,139 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Contact</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Allison&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>images`s</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- LETTRES / FORMES ROSES (SVG) -->
-  <div class="pink-letters pink-letters--tl" aria-hidden="true">
-    <svg viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg">
-      <!-- grosse forme -->
-      <path d="M70 40
-               C25 95, 30 175, 95 235
-               C140 275, 190 290, 275 305"
-            fill="none" stroke="#FFC6FE" stroke-width="26"
-            stroke-linecap="round" stroke-linejoin="round" opacity="0.85" />
-      <!-- trait secondaire -->
-      <path d="M110 45
-               C75 110, 92 175, 145 220
-               C185 255, 230 275, 300 290"
-            fill="none" stroke="#FFC6FE" stroke-width="16"
-            stroke-linecap="round" stroke-linejoin="round" opacity="0.65" />
-    </svg>
+<header>
+<nav>
+<ul>
+<li>About</li>
+<li>Events</li>
+<li class="logo">Dans! Dichter! Dans!</li>
+<li>images`s</li>
+<li>Contact</li>
+</ul>
+</nav>
+</header>
+
+<h1 class="title">images</h1>
+
+<div class="timeline-container">
+  <div class="timeline-line"></div>
+  
+  <div class="timeline-section">
+    <div class="timeline-year">2015</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <div class="cards">
+        <div class="card">
+          <img src="images/img1.jpeg">
+          <div class="info">
+            <h3>Dans! Dichter! Dans! #2</h3>
+            <p>23/06/2015</p>
+            <p>Litteratuur en feest — dansend tegen de duisternis.</p>
+            <button>Bekijk de video</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/img2.jpeg">
+          <div class="info">
+            <h3>Dans! Dichter! Dans! #4</h3>
+            <p>10/12/2015</p>
+            <p>Hannah Pinson, Stefanie Huysmans en Merten.</p>
+            <button>Bekijk de video</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="pink-letters pink-letters--br" aria-hidden="true">
-    <svg viewBox="0 0 380 320" xmlns="http://www.w3.org/2000/svg">
-      <!-- grosse forme -->
-      <path d="M55 255
-               C125 300, 215 305, 305 270
-               C355 250, 365 185, 320 150
-               C265 108, 175 135, 115 175"
-            fill="none" stroke="#FFC6FE" stroke-width="26"
-            stroke-linecap="round" stroke-linejoin="round" opacity="0.85" />
-      <!-- trait secondaire -->
-      <path d="M78 245
-               C145 283, 225 285, 292 258
-               C325 245, 335 205, 305 178
-               C265 142, 195 155, 140 188"
-            fill="none" stroke="#FFC6FE" stroke-width="16"
-            stroke-linecap="round" stroke-linejoin="round" opacity="0.65" />
-    </svg>
+  <div class="timeline-section">
+    <div class="timeline-year">2016</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <div class="cards">
+        <div class="card">
+          <img src="images/img3.jpeg">
+          <div class="info">
+            <h3>Dans! Dichter! Dans! #5</h3>
+            <p>05/02/2016</p>
+            <p>Uitgenodigd door Het Bos.</p>
+            <button>Bekijk de video</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/img4.jpeg">
+          <div class="info">
+            <h3>Dans! Dichter! Dans! #6</h3>
+            <p>04/05/2016</p>
+            <p>We verwelkomden 150 mensen.</p>
+            <button>Bekijk de video</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <!-- /LETTRES / FORMES ROSES (SVG) -->
 
-  <!-- NAVIGATION -->
-  <header class="nav">
-
-    <div class="nav-left">
-      <a href="#">About</a>
-
-      <div class="dropdown">
-        <a href="#">Events</a>
-        <div class="dropdown-menu">
-          <a href="#">Upcoming</a>
-          <a href="#">Past Edition</a>
-        </div>
-      </div>
-
-      <a href="#">Past Editions</a>
-    </div>
-
-    <!-- LOGO -->
-    <div class="logo">
-      <img src="dans1.png" alt="Logo">
-    </div>
-
-    <div class="nav-right">
-      <a href="#">Media</a>
-      <a href="#">Open call</a>
-      <a href="#">Contact</a>
-    </div>
-
-  </header>
-
-  <!-- CONTACT -->
-  <main class="contact-section">
-
-    <div class="contact-left">
-      <h1>Contact</h1>
-
-      <p class="lead">
-        Vragen over ons programma, een samenwerking,<br>
-        of gewoon hallo zeggen?<br>
-        <strong>We horen graag van je.</strong>
-      </p>
-
-      <div class="info-block">
-        <div class="info-title">E-mailadres</div>
-        <div class="info-value">info@dansdichterdans.be</div>
-      </div>
-
-      <div class="info-block">
-        <div class="info-title">Telefoonnummer</div>
-        <div class="info-value">+32 488 86 82 11</div>
-      </div>
-    </div>
-
-    <div class="contact-right">
-      <form class="form-box">
-
-        <div class="row">
-          <div class="input-group">
-            <label>Naam*</label>
-            <input type="text" placeholder="Joe doe">
-          </div>
-
-          <div class="input-group">
-            <label>Voornaam*</label>
-            <input type="text" placeholder="Joe doe">
+  <div class="timeline-section">
+    <div class="timeline-year">2017</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <div class="cards">
+        <div class="card">
+          <img src="images/img5.jpeg">
+          <div class="info">
+            <h3>Dans! Dichter! Dans! #12</h3>
+            <p>28/09/2017</p>
+            <p>Met schrijvers, het Dans! Dichter! Dans! collectief.</p>
+            <button>Bekijk de video</button>
           </div>
         </div>
-
-        <div class="row">
-          <div class="input-group">
-            <label>E-mailadres*</label>
-            <input type="email" placeholder="Joe doe">
-          </div>
-
-          <div class="input-group">
-            <label>Telefoonnummer</label>
-            <input type="text" placeholder="Joe doe">
+        <div class="card">
+          <img src="images/img6.jpeg">
+          <div class="info">
+            <h3>Dans! Dichter! Dans!</h3>
+            <p>15/03/2017</p>
+            <p>We doopten de refter van Conservatorium Antwerpen.</p>
+            <button>Bekijk de video</button>
           </div>
         </div>
-
-        <div class="input-group full">
-          <label>Bericht*</label>
-          <textarea placeholder="Uw bericht"></textarea>
-        </div>
-
-        <button type="button" class="send-btn">Verzenden</button>
-
-      </form>
-    </div>
-
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-
-    <div class="footer-top">
-
-      <div>
-        <div class="logo small">
-          <img src="dans1.png" alt="Logo">
-        </div>
-      </div>
-
-      <div class="footer-col">
-        <h4>Media</h4>
-        <a href="#">Interviews</a>
-        <a href="#">Podcast</a>
-        <a href="#">Aftermovies</a>
-        <a href="#">Teasers</a>
-        <a href="#">Testimonials</a>
-      </div>
-
-      <div class="footer-col">
-        <h4>Company</h4>
-        <a href="#">About</a>
-        <a href="#">Events</a>
-        <a href="#">Past Editions</a>
-        <a href="#">Open call</a>
-        <a href="#">Contact</a>
-      </div>
-
-      <div class="footer-col newsletter">
-        <h4>Join a Newsletter</h4>
-
-        <div class="newsletter-row">
-          <input type="email" placeholder="Enter Your Email">
-          <button type="button" class="subscribe">Subscribe</button>
-        </div>
-
-        <div class="dots" aria-hidden="true">
-          <span></span><span></span><span></span>
-        </div>
-      </div>
-
-    </div>
-
-    <div class="footer-divider"></div>
-
-    <div class="footer-bottom">
-      <div>Copyright Team 5</div>
-      <div class="footer-bottom-right">
-        <span>???????</span>
-        <span>info@dansdichterdans.be</span>
-        <span>+32 488 86 82 11</span>
       </div>
     </div>
+  </div>
 
-  </footer>
+  <div class="timeline-section">
+    <div class="timeline-year">2018</div>
+    <div class="timeline-dot"></div>
+    <div class="timeline-content">
+      <div class="cards">
+        <div class="card">
+          <img src="images/img7.jpeg">
+          <div class="info">
+            <h3>Dans! Dichter! Dans! #14</h3>
+            <p>20/07/2018</p>
+            <p>Met dichters van Auw La.</p>
+            <button>Bekijk de video</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/img8.jpeg">
+          <div class="info">
+            <h3>Dans! Dichter! Dans! #15</h3>
+            <p>16/10/2018</p>
+            <p>We bleven na de Gentse Feesten nog even hangen.</p>
+            <button>Bekijk de video</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 </html>
